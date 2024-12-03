@@ -1,0 +1,190 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    
+  }
+  
+ 
+  .inputcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #333;
+    width:80%;
+    border-radius: 8px;
+    padding: 10px;
+    
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .inputcenter input {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 500px;
+    font-size: 16px;
+   /* margin-right: 10px;*/
+  }
+
+  .inputcenters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 20px 0;*/
+    background-color: #333;
+    width:80%;
+    border-radius: 8px;
+    padding: 10px;
+    
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+
+  .inputcenters input {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+   /* margin-right: 10px;*/
+  }
+  
+  .inputcenter button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inputcenter button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .cardss {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .card h1 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  
+  .card button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .edit {
+    background-color: #28a745;
+  }
+  
+  .card .edit:hover {
+    background-color: #1e7e34;
+  }
+  
+  .card .delete {
+    background-color: #dc3545;
+  }
+  
+  .card .delete:hover {
+    background-color: #bd2130;
+  }
+  
+  .card .status {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .card .status:hover {
+    background-color: #e0a800;
+    color: white;
+  }
+
+
+  @media (max-width: 1024px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .inputcenter input {
+      width: 100%;
+    }
+  
+    .inputcenter {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .inputcenter button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+
+
+
+

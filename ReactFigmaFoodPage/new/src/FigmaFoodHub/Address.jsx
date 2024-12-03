@@ -44,7 +44,7 @@ const Address = () => {
             value={formData.fullname}
             onChange={handleChange}
             className="input"
-            required
+            /*required*/
           />
         </div>
         <div className="form-group">
