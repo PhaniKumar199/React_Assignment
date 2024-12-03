@@ -1,0 +1,25 @@
+[
+    {
+        "image":"/assets/Burger.png",
+        "name":"Burger"
+
+    },
+
+    {
+        "image":"/assets/Donet.png",
+        "name":"Donet"
+
+    },
+
+    {
+        "image":"/assets/Pizza.png",
+        "name":"Pizza"
+
+    },
+
+    {
+        "image":"/assets/mexican.png",
+        "name":"Mexican"
+
+    }
+]

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .splash-bg {
+        max-width: 475px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color:#FE724c;
+        padding: 16px; 
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .splash-bg h1 {
+        font-size: 24px;
+        color: #333; 
+        text-align: center; 
+        margin: 0;
+    }
+
+    

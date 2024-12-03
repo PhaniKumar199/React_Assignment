@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    margin: auto;
+  }
+  
+  .myyy-orders {
+    padding: 16px;
+    
+  }
+  
+  .headerrr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  
+  
+  .profileee-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .tabsss {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .tabbb {
+    flex: 1;
+    padding: 8px 16px;
+    border: none;
+    background: #f2f2f2;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .tabbb.active {
+    background: #ff7043;
+    color: white;
+    border-radius: 16px;
+  }
+  
+  .orderrr-card {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orderrr-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .orderrr-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .orderrr-status {
+    margin-bottom: 16px;
+  }
+  
+  .delivereddd {
+    color: green;
+  }
+  
+  .orderrr-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-btn, .track-btn, .rate-btn, .reorder-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #f2f2f2;
+    color: #333;
+  }
+  
+  .track-btn {
+    background: #ff7043;
+    color: white;
+  }
+  
+  .rate-btn {
+    background: #f2f2f2;
+    color: #333;
+  }
+  
+  .reorder-btn {
+    background: #ff7043;
+    color: white;
+  }
+  
+
+  .back-button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }

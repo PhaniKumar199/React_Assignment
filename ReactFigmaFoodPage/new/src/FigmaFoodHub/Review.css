@@ -1,0 +1,307 @@
+/*.reviewssss-container {
+
+    max-width: 475px;
+  
+    margin: 20px auto;
+  
+    padding: 20px;
+  
+    background: #fff;
+  
+    font-family: 'Arial', sans-serif;
+    
+    
+  
+  }
+   
+  .reviewssss-title {
+  
+    font-size: 24px;
+  
+    font-weight: bold;
+  
+    text-align: center;
+  
+    color: #333;
+  
+    margin-bottom: 20px;
+  
+  }
+   
+  .reviewwww-input {
+  
+    display: flex;
+  
+    align-items: center;
+  
+    margin-bottom: 20px;
+  
+    background: #f9f9f9;
+  
+    border-radius: 10px;
+  
+    padding: 10px;
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+   
+  .userrrr-avatar {
+  
+    width: 40px;
+  
+    height: 40px;
+  
+    border-radius: 50%;
+  
+    margin-right: 10px;
+  
+  }
+   
+  .reviewwww-text-input {
+  
+    flex: 1;
+  
+    border: none;
+  
+    background: transparent;
+  
+    font-size: 14px;
+  
+    color: #666;
+  
+    outline: none;
+  
+  }
+   
+  .reviewwww-card {
+  
+    display: flex;
+  
+    align-items: flex-start;
+  
+    margin-bottom: 20px;
+  
+    padding: 10px;
+  
+    background: #fff;
+  
+    border-radius: 10px;
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+   
+  .reviewwww-avatar {
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    border-radius: 50%;
+  
+    margin-right: 15px;
+  
+  }
+   
+  .reviewwww-content {
+  
+    flex: 1;
+  
+  }
+   
+  .reviewwww-header {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    margin-bottom: 5px;
+  
+  }
+   
+  .reviewwww-name {
+  
+    font-size: 16px;
+  
+    font-weight: bold;
+  
+    color: #333;
+  
+  }
+   
+  .reviewwww-date {
+  
+    font-size: 12px;
+  
+    color: #999;
+  
+  }
+   
+  .reviewwww-rating {
+  
+    display: inline-block;
+  
+    font-size: 14px;
+  
+    font-weight: bold;
+  
+    color: #fff;
+  
+    background: #ffc107;
+  
+    padding: 2px 8px;
+  
+    border-radius: 12px;
+  
+    margin-bottom: 5px;
+  
+  }
+   
+  .reviewwww-text {
+  
+    font-size: 14px;
+  
+    color: #666;
+  
+    line-height: 1.5;
+  
+  }
+  
+  .back-button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .reviewssss-container {
+    max-width: 475px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    color: #7F7D92;
+    font-family: system-ui,;
+    
+
+  }
+  
+  .reviewssss-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reviewwww-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userrrr-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .reviewwww-text-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: #666;
+    outline: none;
+  }
+  
+  .reviewwww-card {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewwww-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .reviewwww-content {
+    flex: 1;
+  }
+  
+  .reviewwww-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .reviewwww-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px; /* Add spacing between name and date */
+  }
+  
+  .reviewwww-date {
+    font-size: 12px;
+    color: #999;
+    margin-left: auto; /* Push date to the right */
+  }
+  
+  .reviewwww-rating {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #ffc107;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .reviewwww-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 5px; /* Add spacing between text and rating */
+  }
+  
+  .back-button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  

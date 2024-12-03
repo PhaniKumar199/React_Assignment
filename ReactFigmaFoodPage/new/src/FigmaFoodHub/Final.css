@@ -1,0 +1,59 @@
+
+/*body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    height: 100vh;
+    max-width: 475px;
+    margin: auto;
+  }*/
+  
+  .containerrrrr {
+    position: relative;
+    top: 200px;
+    
+    height: 100vh;
+    max-width: 475px;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  .logooooo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px black;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .feedbackkkkk {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .submittttt-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e31837;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+    width: 60%;
+  }
+  
+  .submittttt-btn:hover {
+    background-color: #c11330;
+  }
+  

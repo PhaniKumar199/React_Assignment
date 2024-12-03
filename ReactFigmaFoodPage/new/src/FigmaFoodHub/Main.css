@@ -1,0 +1,268 @@
+.mainfood{
+    margin: auto;
+    background-color: white;
+    max-width: 475px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:grey;
+    padding: 10px 20px;
+    color: white;
+    
+    
+  }
+  
+  
+  .menu-icon button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .menu-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  
+  .delivery-info {
+    text-align: left;
+    text-align: center;
+  }
+  
+  .delivery-info .deliver {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+  }
+
+  .delivery-info .view {
+    margin: 0;
+    font-size: 16px;
+    color: red;
+  }
+  
+  .nav-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+
+  .mainhead{
+    width:250px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+
+
+  
+.names {
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    gap: 20px; 
+    margin-top: 20px;
+    padding: 10px;
+    height: 160px;
+  }
+  
+  
+  .food-card {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ff6d42;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 70%;
+    margin-left: 10px;
+    
+  }
+  
+  .food-card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  
+  .image-food {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  
+  .food-name {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .rescard{
+    width: 300px;
+    background-color: white;
+    height: 280px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px black;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+  }
+
+  .imageres{
+    width: 300px;
+    height: 160px;
+    border-radius: 12px;
+   
+  }
+
+  .imagedis{
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 3px;
+    
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-width: 475px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 36%;
+    
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #007bff; 
+  }
+
+.dropdown-menu{
+  background-color: white;
+  color: #ddd;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .search-container input {
+    padding: 10px ;
+    font-size: 14px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  
+  .filter-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .filter-button:hover {
+    background-color: #575757;
+  }
+  
+  /* Category filter dropdown */
+  .category-dropdown {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .category-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .category-dropdown ul li {
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .category-dropdown ul li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  
+  .item-list ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .item-list ul li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
